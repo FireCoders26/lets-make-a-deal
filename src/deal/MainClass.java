@@ -1,5 +1,8 @@
+package deal;
 import java.util.ArrayList;
 import java.util.List;
+
+import deal.games.TeamGame;
 
 /*******************
  * Team: DragonArmy26 Author:

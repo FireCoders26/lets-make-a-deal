@@ -1,11 +1,14 @@
+package deal.games;
 /*******************
  * Team: DragonArmy26
  * Author: Hyrum Smith
  * 
  * 
  ******************/
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
+
+import deal.data.Player;
 
 public class GameEnvelope {
 	//fields

@@ -1,3 +1,4 @@
+package deal.data;
 /*******************
  * Team: DragonArmy26
  * Author: Hyrum Smith

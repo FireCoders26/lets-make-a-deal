@@ -1,3 +1,4 @@
+package deal.games;
 /*******************
  * Team: DragonArmy26
  * Author: Mathew Johnson
@@ -6,6 +7,9 @@
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Scanner;
+
+import deal.data.Player;
+import deal.data.Prize;
 public class TeamGame {
 	//fields
 	Player Player1;
