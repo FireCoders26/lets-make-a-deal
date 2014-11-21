@@ -5,5 +5,6 @@
  * 
  ******************/
 public class GameShell {
+	// make players for each game
 
 }

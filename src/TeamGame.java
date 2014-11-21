@@ -14,7 +14,7 @@ public class TeamGame {
 	String[] oContainers = {"Curtain1", "Curtain2", "Curtain3", "Door1", "Door2", "Door3", "Big box", "Box"};
 	Random rand = new Random();
 	//ctors
-	public TeamGame(){
+	public TeamGame() {
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Who wants to make a deal?\n What are your names:");
@@ -44,12 +44,10 @@ public class TeamGame {
 		
 		
 		String choice = input.nextLine();
+	}
+	
+	/* Starts game on the console */
+	public void runGame() {
 		
-
-		//switch(choice){
-		//	case prize1.getoName():
-				
-				
-		//}		
 	}
 }
