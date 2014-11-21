@@ -1,7 +1,7 @@
 package deal;
+
 /*******************
- * Team: DragonArmy26
- * Author:
+ * Team: DragonArmy26 Author:
  * 
  * 
  ******************/

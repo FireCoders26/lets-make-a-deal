@@ -1,27 +1,30 @@
 package deal.data;
+
 /*******************
- * Team: DragonArmy26
+ * Team: DragonArmy26 
  * Author: Hyrum Smith
  * 
  ******************/
 public class Player {
-	//fields
+	// fields
 	private String name;
 	private int prizeValue;
-	
-	//ctors
-	public Player(String n){
+
+	// ctors
+	public Player(String n) {
 		name = n;
 	}
-	
-	//methods
-	public void setPrizeValue(int p){
+
+	// methods
+	public void setPrizeValue(int p) {
 		prizeValue = p;
 	}
-	public String getName(){
+
+	public String getName() {
 		return name;
 	}
-	public int getPrizevalue(){
+
+	public int getPrizevalue() {
 		return prizeValue;
 	}
 }
