@@ -24,7 +24,7 @@ public class GameEnvelope {
 	//ctor
 	public GameEnvelope(){
 		System.out.println("hello - commit test");
-	System.out.print("Who wants to make a big deal with your luck?\n What is your name:");
+	System.out.print("Who wants to make a deal?\n What is your beautiful name:");
 	player1 = new Player(input.nextLine());
 	
 	randN = rand.nextInt(pContainers.length);
