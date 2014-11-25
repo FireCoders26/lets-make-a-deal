@@ -76,7 +76,14 @@ public class TeamGame extends LetsMakeADealGame {
 				"Or, would you rather have whatever is inside of this %s?%n"
 						+ "Remember, either one of these could be a ZONK!\n",
 				prize2.getoName());
-
+		
+		if(choice.equals(prize1.getContainer())){
+			player1.setPrizeName(prize1.getoName());
+			
+		}else if(choice.equals(prize2.getContainer())){
+			player1.setPrizeName(prize2.getoName());
+		}else
+			player1.setPrizeName(prize1.getoName());
 		
 		
 			
